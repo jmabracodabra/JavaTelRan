@@ -3,6 +3,7 @@ package homework.homework01;
 public class Homework1 {
     public static void main(String[] args) {
 
+
 //        Task 1
         char ch = 'G';
         Character chObj = 'G';
@@ -32,7 +33,7 @@ public class Homework1 {
 //        Пример: 345
 //        Вывод в консоль: Число 345 -> 3, 4, 5
 
-        int numb = 619;
+        int numb = 345;
 
         byte x = (byte) (numb / 100);
         byte y = (byte) (numb / 10 % 10);

@@ -1,9 +1,10 @@
 package lesson.lesson_11_10;
 
-public class App {
+public class Summery {
     public static void main(String[] args) {
         method();
         System.out.println("qwerty");
+        tern();
     }
 
     private static void method() {
@@ -15,8 +16,24 @@ public class App {
                 }
                 System.out.println("j = " + j);
             }
-            System.out.println("тест строка" );
+            System.out.println("тест строка");
         }
     }
+
+    private static void tern() {
+        int score = 85;
+//        String grade = score >= 80 ? "A" : "B";
+        String grade = score >= 80 ? "A" : (score >=50 ? "B" : "C");
+
+        System.out.println(grade);
+    }
+
+
+// Тернарный оператор
+//    public static void main(String[] args) {
+//        boolean логическоеУсловие = true;
+//        String результат = логическоеУсловие ? "Правда" : "ложь";
+//        System.out.println("result = " + результат);
+//    }
 
 }
